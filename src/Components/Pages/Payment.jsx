@@ -70,14 +70,14 @@ function Payment() {
           type="hidden"
           id="success_url"
           name="success_url"
-          value="http://localhost:5173/success"
+          value="https://momo-house.vercel.app/success"
           required
         />
         <input
           type="hidden"
           id="failure_url"
           name="failure_url"
-          value="http://localhost:5173/failure"
+          value="https://momo-house.vercel.app/failure"
           required
         />
         <input
