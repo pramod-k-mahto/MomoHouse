@@ -10,13 +10,14 @@ createRoot(document.getElementById("root")).render(
     <CartProvider>
       <Auth0Provider
         domain="dev-0dxli2liaejazv04.us.auth0.com"
-        clientId="5QEePoy5oiuHCPOnDk5BUjTCcxq3ueXV"
+        clientId="WS7X1CTeLBPu2PY3bY8w4ZJ21cXmAOYe"
         authorizationParams={{
           redirect_uri: window.location.origin,
         }}
       >
         <App />
       </Auth0Provider>
+      
     </CartProvider>
   </BrowserRouter>
 );
